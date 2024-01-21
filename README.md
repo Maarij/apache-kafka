@@ -69,4 +69,6 @@ read from the leader.
 
 ## Zookeeper
 * Starting to become legacy but originally managed brokers
-* ``
+* Helps perform leader election for partitions
+* Sends metadata updates to kafka
+* Positioning to not having Zookeeper at all. Not production ready yet (likely 4.0 will be).
